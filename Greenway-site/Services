@@ -1,0 +1,56 @@
+<section class="section">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p class="sub">Comprehensive visa, government, and documentation services to simplify your life in the UAE.</p>
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<script>
+  const basePath = "assets/Service Images/";
+  const jsonPath = "assets/data/services.json";
+
+  // Optional Unsplash backups
+  const unsplashBackup = {
+    "golden-visa.jpg": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800",
+    "family-visa.jpg": "https://images.unsplash.com/photo-1605902711834-8b11c3e3ef5b?q=80&w=800",
+    "residence-visa.jpg": "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?q=80&w=800",
+    "visit-visa.jpg": "https://images.unsplash.com/photo-1502920917128-1aa500764b79?q=80&w=800",
+    "immigration-services.jpg": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
+    "emirates-id.jpg": "https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=800",
+    "labor-mohre.jpg": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=800",
+    "pro-government-liaison.jpg": "https://images.unsplash.com/photo-1532614338840-ab30cf10ed36?q=80&w=800",
+    "attestations.jpg": "https://images.unsplash.com/photo-1581092918056-0c4c4902f4b4?q=80&w=800",
+    "educational-equivalency.jpg": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?q=80&w=800",
+    "genuineness-verifications.jpg": "https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?q=80&w=800",
+    "legal-translations.jpg": "https://images.unsplash.com/photo-1607957741459-0a53ddef9a53?q=80&w=800",
+    "insurance-services.jpg": "https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?q=80&w=800",
+    "vat-services.jpg": "https://images.unsplash.com/photo-1605902712910-003b5dc06c98?q=80&w=800",
+    "notary-services.jpg": "https://images.unsplash.com/photo-1624996379670-2c64c7c2f81c?q=80&w=800",
+    "power-of-attorney.jpg": "https://images.unsplash.com/photo-1554224155-1696413569d7?q=80&w=800",
+    "scanning-printing.jpg": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=800"
+  };
+
+  fetch(jsonPath)
+    .then(res => res.json())
+    .then(services => {
+      const grid = document.getElementById("servicesGrid");
+      grid.innerHTML = services.map(s => {
+        const localSrc = basePath + s.file;
+        const fallback = unsplashBackup[s.file] || "";
+        return `
+          <div class="service-card">
+            <div class="service-media">
+              <img src="${localSrc}" alt="${s.title}" 
+                   onerror="this.onerror=null; ${fallback ? `this.src='${fallback}'` : `this.style.display='none'`};">
+            </div>
+            <div class="service-body">
+              <h3>${s.title}</h3>
+              <p>${s.desc}</p>
+            </div>
+          </div>
+        `;
+      }).join("");
+    })
+    .catch(err => console.error("Failed to load services.json", err));
+</script>
