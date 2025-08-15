@@ -1,0 +1,179 @@
+<section class="section">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p class="sub">Comprehensive visa, government, and documentation services to simplify your life in the UAE.</p>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800" alt="Golden Visa Assistance">
+        </div>
+        <div class="service-body">
+          <h3>Golden Visa Assistance</h3>
+          <p>Expert guidance to secure your UAE Golden Visa quickly and hassle-free.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1605902711834-8b11c3e3ef5b?q=80&w=800" alt="Family Visa Processing">
+        </div>
+        <div class="service-body">
+          <h3>Family Visa Processing</h3>
+          <p>We make sponsoring your family in the UAE simple and efficient.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?q=80&w=800" alt="Residence Visa">
+        </div>
+        <div class="service-body">
+          <h3>Residence Visa (Work/Study/Relocation)</h3>
+          <p>Full support for obtaining your UAE residence visa for any purpose.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1502920917128-1aa500764b79?q=80&w=800" alt="Visit / Tourist Visa">
+        </div>
+        <div class="service-body">
+          <h3>Visit / Tourist Visa</h3>
+          <p>Fast and affordable UAE visit and tourist visa processing.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800" alt="Immigration Services">
+        </div>
+        <div class="service-body">
+          <h3>Immigration Services</h3>
+          <p>Professional immigration advice and paperwork handling.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=800" alt="Emirates ID Services">
+        </div>
+        <div class="service-body">
+          <h3>Emirates ID Services</h3>
+          <p>Quick Emirates ID application, renewal, and replacement assistance.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=800" alt="LABOR (MOHRE) Services">
+        </div>
+        <div class="service-body">
+          <h3>LABOR (MOHRE) Services</h3>
+          <p>Complete MOHRE labor services including contracts and permits.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1532614338840-ab30cf10ed36?q=80&w=800" alt="PRO / Government Liaison">
+        </div>
+        <div class="service-body">
+          <h3>PRO / Government Liaison</h3>
+          <p>Dedicated PRO services for smooth dealings with UAE authorities.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c4902f4b4?q=80&w=800" alt="Attestations">
+        </div>
+        <div class="service-body">
+          <h3>Attestations</h3>
+          <p>Official document attestation services recognized by UAE authorities.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?q=80&w=800" alt="Educational Equivalency">
+        </div>
+        <div class="service-body">
+          <h3>Educational Equivalency</h3>
+          <p>Get your academic qualifications recognized in the UAE.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?q=80&w=800" alt="Genuineness Verifications">
+        </div>
+        <div class="service-body">
+          <h3>Genuineness Verifications</h3>
+          <p>Authenticity checks for official and personal documents.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1607957741459-0a53ddef9a53?q=80&w=800" alt="Certified Legal Translations">
+        </div>
+        <div class="service-body">
+          <h3>Certified Legal Translations</h3>
+          <p>Professional legal translations approved by UAE authorities.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?q=80&w=800" alt="Insurance Services">
+        </div>
+        <div class="service-body">
+          <h3>Insurance Services</h3>
+          <p>Comprehensive insurance solutions tailored to your needs.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1605902712910-003b5dc06c98?q=80&w=800" alt="VAT-Related Services">
+        </div>
+        <div class="service-body">
+          <h3>VAT-Related Services</h3>
+          <p>VAT registration, filing, and compliance services for your business.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1624996379670-2c64c7c2f81c?q=80&w=800" alt="Notary Services">
+        </div>
+        <div class="service-body">
+          <h3>Notary Services</h3>
+          <p>Authorized notary public services for legal documentation.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1554224155-1696413569d7?q=80&w=800" alt="Power of Attorney">
+        </div>
+        <div class="service-body">
+          <h3>Power of Attorney (POA)</h3>
+          <p>Drafting and notarizing Power of Attorney documents.</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=800" alt="Scanning, Copying & Printing">
+        </div>
+        <div class="service-body">
+          <h3>Scanning, Copying & Printing</h3>
+          <p>High-quality document scanning, copying, and printing services.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
